@@ -1,11 +1,15 @@
+This is a recommendation system using collaborative filtering and ranking (LETOR) with PMF features 
+for recommending top unrated movies for given users. It is trained using LR-LETOR and RankSVM based 
+on Netflix Prize dataset.
+
 The src folder contains 6 python files. Please locate all of them in the same directory as Netlifx dataset.
 For all scripts running correctly, scipy version of 0.17.0 is required. In additional, numpy package is required
 for dense matrix operation, and sklearn package is required for SVM (used LinearSVC, which is the same as the one
 in LIBLINEAR).
 
 baseline.py:
-original code from hw 4, baseline performances of memory based mthod, model based
-method and PMF are generated using this script
+Baseline performances of memory based mthod, model based method and PMF 
+are generated using this script.
 
 main_script.py:
 Used to conduct experiment and generate predicting results

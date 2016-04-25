@@ -1,3 +1,7 @@
+This is a supervised learning system using multi-class logistic regression 
+and SVM for predicting Yelp restaurant scores based on comments. It is trained on
+2GB of Yelp restaurant scores & comments dataset in JSON format.
+
 Please put all four python files under the same folder as the JSON dataset of YELP
 as well as stop list files. 
 

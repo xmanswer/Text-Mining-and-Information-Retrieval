@@ -1,5 +1,7 @@
-This program is based on a subset of NetFlix dataset, which is not allowed to be distributed
-So the data parsing part of the grogram can be ignored
+This program is used to perform collaborative filtering for movies recommendation. It will
+predict scores for all unrated movies for all users. It based on a subset of NetFlix dataset, 
+which is not allowed to be distributed. So the data parsing part of the program can be ignored.
+
 Prepare: Put the hw4.py file in the same folder of all HW4 data and eval data and script
 Please notice that the program requires a scipy version of 0.17.0 and a numpy version of 1.10.4 (or higher)
 Usage: python hw4.py
